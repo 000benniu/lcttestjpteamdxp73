@@ -36,7 +36,7 @@
   "publishNotReadyAddressesForCluster": false,
   "env": {
     "LCP_PROJECT_LIFERAY_CLUSTER_ENABLED": "true",
-    "LIFERAY_JVM_OPTS": "-Xms3096m -Xmx11288m -XX:MetaspaceSize=1024m -XX:MaxMetaspaceSize=1024m"
+    "LIFERAY_JVM_OPTS": "-Xms4096m -Xmx12288m -XX:MetaspaceSize=3024m -XX:MaxMetaspaceSize=3024m"
   },
   "dependencies": [
     "database",
@@ -54,7 +54,7 @@
       "memory": 16384,
       "scale": 1,
       "env": {
-        "LIFERAY_JVM_OPTS": "-Xms3096m -Xmx11288m -XX:MetaspaceSize=1024m -XX:MaxMetaspaceSize=1024m"
+        "LIFERAY_JVM_OPTS": "-Xms4096m -Xmx12288m -XX:MetaspaceSize=3024m -XX:MaxMetaspaceSize=3024m"
       }
     }
   }
